@@ -228,6 +228,7 @@ checksum = "5443807d6dff69373d433ab9ef5378ad8df50ca6298caf15de6e52e24aaf54d5"
 name = "file-transfer-tutorial"
 version = "0.1.0"
 dependencies = [
+ "human_bytes",
  "leptos",
  "reqwasm",
  "serde",
@@ -453,6 +454,12 @@ dependencies = [
  "fnv",
  "itoa",
 ]
+
+[[package]]
+name = "human_bytes"
+version = "0.4.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "91f255a4535024abf7640cb288260811fc14794f62b063652ed349f9a6c2348e"
 
 [[package]]
 name = "idna"
