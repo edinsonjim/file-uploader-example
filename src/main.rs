@@ -1,9 +1,12 @@
+use file_transfer_tutorial::pages::transfer_page::TransferPage;
 use leptos::{component, mount_to_body, view, IntoView};
 
 #[component]
 fn App() -> impl IntoView {
     view! {
-        <p>Hello World</p>
+        <div class="min-w-screen min-h-screen bg-violet-50">
+            <TransferPage />
+        </div>
     }
 }
 
